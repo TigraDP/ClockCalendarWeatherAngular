@@ -1,0 +1,4 @@
+<div class="clock" (click) = "formatSwitch()">
+    <div *ngIf = isShortFormat>{{date | date: 'hh:mm'}}</div>
+    <div *ngIf = !isShortFormat>{{date | date: 'hh:mm:ss'}}</div>
+</div>

@@ -1,0 +1,4 @@
+<div class="clock" (click) = "formatSwitch()">
+        <div *ngIf = isEuDate>{{date | date: 'yy/MM/dd'}}</div>
+        <div *ngIf = !isEuDate>{{date | date: 'dd.MM.yyy'}}</div>
+    </div>

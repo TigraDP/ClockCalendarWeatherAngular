@@ -1,0 +1,40 @@
+@keyframes background{
+    50% {
+      background: darkviolet;
+      box-shadow: 0 -140px 70px -120px mediumorchid inset,
+                  0 -210px 70px -120px teal inset,
+                  0 -280px 70px -120px plum inset;
+    }
+}
+
+.boxShadou {
+    box-shadow: 0 -150px 70px -120px teal inset,
+                0 -220px 70px -120px yellowgreen inset,
+                0 -280px 70px -120px gold inset;
+}
+
+.container{
+    display: flex;                
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    :hover {   
+        animation: background 4s infinite alternate;
+    }
+}
+
+.clock-calendar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    width: 550px;
+    min-height: 115px;
+    .boxShadou   
+   }
+ 
+
+
